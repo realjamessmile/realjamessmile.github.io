@@ -13,6 +13,7 @@ body{
     background-image: url('assets/fractal.jpg');
     background-size: 300px;
     background-repeat: repeat;
+    cursor: url('assets/small-clam.png'),auto;
 }
 
 /* Use . for classes, # for IDs */
@@ -32,4 +33,8 @@ body{
 
 #headshot:hover {
     border: solid 10px red;
+}
+
+#toaster-cartoon{
+    margin-top: 500px;
 }
