@@ -22,7 +22,19 @@ body.danger-prod{
     background-repeat: repeat;
 }
 
+body.classiccarpage{
+    background-image: url('assets/beigefractal.png');
+    background-size: 300px;
+    background-repeat: repeat;
+}
+
 /* Use . for classes, # for IDs */
+.menu-bar{
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+}
+
 .container{
     display: flex;
     align-items: center;
@@ -50,11 +62,43 @@ a.danger{
     color: red;
 }
 
-a.bar:visited{
-    color: red;
+a.car-link{
+    font-size: 25px;
+    color: chartreuse;
+    background-color: rgb(210, 160, 95);
+    border: 3px solid chartreuse;
+    padding: 10px 10px;
+    cursor: pointer;
 }
+
+/* a.bar:visited{
+    color: red;
+} */
 
 table, th, td {
     border:1px solid black;
     background-color: rgb(166, 246, 255)
 }
+
+.button {
+    background-color: rgb(172, 137, 91);
+    border: 5px solid chartreuse;
+    color: chartreuse;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    margin: 16px 2px;
+    cursor: pointer;
+  }
+
+  #classiccarpic {
+    border:20px solid burlywood;
+    margin: 16px;
+  }
+
+  #classiccarcaption {
+    font-size: 30px;
+  }
