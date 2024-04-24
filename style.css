@@ -112,18 +112,6 @@ a.car-link{
     cursor: pointer;
 }
 
-#phish-button {
-    padding: 15px 30px;
-    background-color: white;
-    color: blue;
-    font-weight: bold;
-    font-size: 16px;
-    border: 2px solid blue;
-    text-transform: uppercase;
-    cursor: pointer;
-     align-self: center; /* aligns itself within parent container */
-}
-
 /* a.bar:visited{
     color: red;
 } */
@@ -146,6 +134,18 @@ table, th, td {
     margin: 16px 2px;
     cursor: pointer;
   }
+
+#phish-button {
+    padding: 15px 30px;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid blue;
+    text-transform: uppercase;
+    cursor: pointer;
+    align-self: center; /* aligns itself within parent container */
+}
 
   #classiccarpic {
     border:20px solid burlywood;
