@@ -36,6 +36,11 @@ a {
 cursor: inherit;  /* so clamimation works even on links */
 }
 
+a:hover {
+    color: blue;
+}
+
+
 .name {
     text-decoration: none;
     margin-left: 20px;
