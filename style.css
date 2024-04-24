@@ -130,8 +130,8 @@ a.car-link:hover{
 a.secsi-link{
     font-size: 25px;
     color: pink;
-    background-color: rgb(210, 160, 95);
-    border: 3px solid chartreuse;
+    background-color: rgb(100, 30, 10);
+    border: 3px solid white;
     padding: 10px 10px;
     cursor: inherit;
 }
