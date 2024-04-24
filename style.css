@@ -68,6 +68,12 @@ cursor: inherit;
     justify-content: center;
 }
 
+.stack{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
 .textbox{
 display: inline-block; /* make box hug the text */
 background-color: rgba(200, 230, 255, 0.5);  /* 50% light blueish green */
@@ -106,13 +112,10 @@ a.car-link{
     cursor: pointer;
 }
 
-/* .a, .li, .ul{
-    cursor: default;
-} */
-
-/* a:hover, ul:hover, li:hover {
-    cursor: url('assets/small-clam.png'), auto;
-} */
+#phish-button {
+    padding: 10px;  // Add padding to the button for better visibility
+    margin-bottom: 10px;  // Ensure there's space between the button and other elements
+}
 
 /* a.bar:visited{
     color: red;
