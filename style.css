@@ -131,6 +131,7 @@ table, th, td {
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
+    cursor: pointer;
     font-family: 'Times New Roman';
     margin: 16px 2px;
   }
