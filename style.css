@@ -37,7 +37,7 @@ cursor: inherit;  /* so clamimation works even on links */
 }
 
 a:hover {
-    color: blue;
+    color: white;
 }
 
 
@@ -119,6 +119,10 @@ a.car-link{
     cursor: inherit;
 }
 
+a.car-link:hover{
+    color: blue;
+}
+
 /* a.bar:visited{
     color: red;
 } */
@@ -153,6 +157,10 @@ table, th, td {
     cursor: inherit;
     background: linear-gradient(to right, orange, yellow);
     align-self: center; /* aligns itself within parent container */
+}
+
+#phish-button:hover {
+    color: blue;
 }
 
   #classiccarpic {
