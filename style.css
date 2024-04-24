@@ -98,7 +98,7 @@ margin: 10px;
 
 #headshot:hover {
     border: solid 10px red;
-    cursor: url('assets/clam-pearl.png'), auto;
+    cursor: url('assets/clam-pearl.jpeg');
 }
 
 #toaster-cartoon{
