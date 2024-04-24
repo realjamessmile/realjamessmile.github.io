@@ -106,9 +106,9 @@ a.car-link{
     cursor: pointer;
 }
 
-.a, .li, .ul{
+/* .a, .li, .ul{
     cursor: default;
-}
+} */
 
 /* a:hover, ul:hover, li:hover {
     cursor: url('assets/small-clam.png'), auto;
