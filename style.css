@@ -133,7 +133,6 @@ table, th, td {
     font-size: 20px;
     font-family: 'Times New Roman';
     margin: 16px 2px;
-    cursor: inherit;  /* so clamimation works even on buttons */
   }
 
 #phish-button {
