@@ -9,10 +9,10 @@
             playBox.addEventListener('click', () => {
                 if (audio.paused) {
                     audio.play();
-                    playIcon.textContent = '❚❚';
+                    playIcon.textContent = 'PHISH ME';
                 } else {
                     audio.pause();
-                    playIcon.textContent = '▶';
+                    playIcon.textContent = 'STOP PHISHING';
                 }
             });
         };
