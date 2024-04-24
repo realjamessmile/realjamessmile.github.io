@@ -3,6 +3,9 @@ var carData = [
     {'img': '1967MercuryCougarCumberlandBeige.jpg', 'name': '1967 Mercury Cougar (in appealing Cumberland Beige)'},
     {'img': '1968MercuryMonterey.jpg', 'name': '1968 Mercury Monterey'},
     {'img': '1961PlymouthFury.jpg', 'name': '1961 Plymouth Fury (Blue Beauty!)'}
+    {'img': '1947ChryslerTownAndCountry.png', 'name': '1947 Chrysler Town and Country (Youd never guess shes actually a city girl!)'}
+    {'img': '1964CorvetteRoadster.jpeg', 'name': '1964 Corvette Roadster (is it just me or is it getting hot in here?)'}
+     
 ]
 
 function carGenerator(){
