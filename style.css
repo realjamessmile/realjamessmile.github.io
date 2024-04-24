@@ -110,6 +110,10 @@ a.danger{
     color: red;
 }
 
+a.danger:hover{
+    color:white;
+}
+
 a.car-link{
     font-size: 25px;
     color: chartreuse;
