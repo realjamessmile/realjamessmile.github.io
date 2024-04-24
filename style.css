@@ -52,10 +52,12 @@ body.classiccarpage{
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
-    background-color: rgba(255, 255, 255, 0.2);  /* 20% white */
-    padding: 21px;
-    margin: 10px;
+.textbox{
+background-color: rgba(255, 255, 255, 0.5);  /* 50% white */
+padding: 21px;
+margin: 10px;
 }
 
 .headshot {
