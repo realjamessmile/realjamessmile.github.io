@@ -110,7 +110,7 @@ a.car-link{
     background-color: rgb(210, 160, 95);
     border: 3px solid chartreuse;
     padding: 10px 10px;
-    cursor: pointer;
+    cursor: inherit;
 }
 
 /* a.bar:visited{
@@ -131,7 +131,7 @@ table, th, td {
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    cursor: pointer;
+    cursor: inherit;
     font-family: 'Times New Roman';
     margin: 16px 2px;
   }
@@ -144,7 +144,7 @@ table, th, td {
     border: 2px solid white;
     border-radius: 5px;
     text-transform: uppercase;
-    cursor: pointer;
+    cursor: inherit;
     background: linear-gradient(to right, orange, yellow);
     align-self: center; /* aligns itself within parent container */
 }
