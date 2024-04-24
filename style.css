@@ -144,6 +144,7 @@ table, th, td {
     border: 2px solid white;
     border-radius: 5px;
     text-transform: uppercase;
+    cursor: pointer;
     background: linear-gradient(to right, orange, yellow);
     align-self: center; /* aligns itself within parent container */
 }
