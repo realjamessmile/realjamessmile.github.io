@@ -33,7 +33,7 @@ body.classiccarpage{
 /* Use . for classes, # for IDs */
 
 a {
-cursor: inherit;
+cursor: inherit;  /* so clamimation works even on links */
 }
 
 .name {
