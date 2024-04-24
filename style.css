@@ -136,12 +136,13 @@ table, th, td {
   }
 
 #phish-button {
-    padding: 15px 30px;
+    padding: 15px 50px;
     background-color: white;
     color: blue;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 24px;
     border: 2px solid blue;
+    border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
     align-self: center; /* aligns itself within parent container */
