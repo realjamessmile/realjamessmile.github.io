@@ -143,7 +143,7 @@ table, th, td {
     border: 2px solid white;
     border-radius: 5px;
     text-transform: uppercase;
-    background: linear-gradient(to right, #007bff, #28a745);
+    background: linear-gradient(to right, orange, yellow);
     align-self: center; /* aligns itself within parent container */
 }
 
