@@ -32,6 +32,10 @@ body.classiccarpage{
 
 /* Use . for classes, # for IDs */
 
+a {
+    cursor: default;  // Prevent hand pointer on hyperlinks
+}
+
 .name {
     text-decoration: none;
     margin-left: 20px;
@@ -100,6 +104,10 @@ a.car-link{
     border: 3px solid chartreuse;
     padding: 10px 10px;
     cursor: pointer;
+}
+
+a:hover, ul:hover, li:hover {
+    cursor: url('assets/small-clam.png'), auto;
 }
 
 /* a.bar:visited{
