@@ -127,6 +127,19 @@ a.car-link:hover{
     color: blue;
 }
 
+a.secsi-link{
+    font-size: 25px;
+    color: pink;
+    background-color: rgb(210, 160, 95);
+    border: 3px solid chartreuse;
+    padding: 10px 10px;
+    cursor: inherit;
+}
+
+a.secsi-link:hover{
+    color: blue;
+}
+
 /* a.bar:visited{
     color: red;
 } */
