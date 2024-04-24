@@ -30,6 +30,12 @@ body.classiccarpage{
     background-repeat: repeat;
 }
 
+body.secsi-page{
+     background-image: url('assets/bombastic-fractal.png');
+    background-size: 300px;
+    background-repeat: repeat;
+}
+
 /* Use . for classes, # for IDs */
 
 a {
