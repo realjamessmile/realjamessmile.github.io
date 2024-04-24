@@ -32,10 +32,10 @@ body.classiccarpage{
 
 /* Use . for classes, # for IDs */
 
-a {
+/* a {
     cursor: default;  // Prevent hand pointer on hyperlinks
 }
-
+ */
 .name {
     text-decoration: none;
     margin-left: 20px;
