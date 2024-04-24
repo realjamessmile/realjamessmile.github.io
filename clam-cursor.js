@@ -2,15 +2,17 @@ window.onload = function() {
     const openCursor = 'assets/small-clam.png';
     const closedCursor = 'assets/small-clam-closed.png';
 
-    document.body.style.cursor = `url(${openCursor}), auto`;  // Default to open clam
+    // Set the default cursor to open clam
+    document.body.style.cursor = `url(${openCursor}), auto`;
 
-    // Change to closed clam on mousedown
-    document.body.addEventListener('mousedown', () => {
-        document.body.style.cursor = `url(${closedCursor}), auto`;
+    // Event listeners for the entire document body
+    document.body.addEventListener('mousedown', (event) => {
+        console.log("Mouse down detected");  // Check if this triggers
+        document.body.style.cursor = `url(${closedCursor}), auto`;  // Closed clam
     });
 
-    // Change back to open clam on mouseup
-    document.body.addEventListener('mouseup', () => {
-        document.body.style.cursor = `url(${openCursor}), auto`;
+    document.body.addEventListener('mouseup', (event) => {
+        console.log("Mouse up detected");  // Check if this triggers
+        document.body.style.cursor = `url(${openCursor}), auto`;  // Open clam
     });
 };
