@@ -14,4 +14,14 @@ window.onload = function() {
     };
 
     phishButton.addEventListener('click', togglePhish);
+
+ // Disable clam event listener when clicking the phish button
+    phishButton.addEventListener('mousedown', () => {
+        document.body.removeEventListener('mousedown', clamCursor);
+    });
+
+    // Re-enable clam event listener when clicking outside the phish button
+    phishButton.addEventListener('mouseup', () => {
+        document.body.addEventListener('mousedown', clamCursor);
+    });
 };
