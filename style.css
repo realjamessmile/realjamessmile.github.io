@@ -146,7 +146,6 @@ table, th, td {
     text-transform: uppercase;
     background: linear-gradient(to right, orange, yellow);
     align-self: center; /* aligns itself within parent container */
-    cursor: inherit;  /* so clamimation works even on buttons */
 }
 
   #classiccarpic {
