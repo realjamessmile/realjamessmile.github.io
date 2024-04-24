@@ -113,8 +113,15 @@ a.car-link{
 }
 
 #phish-button {
-    padding: 10px;  // Add padding to the button for better visibility
-    margin-bottom: 10px;  // Ensure there's space between the button and other elements
+    padding: 15px 30px;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid blue;
+    text-transform: uppercase;
+    cursor: pointer;
+     align-self: center; /* aligns itself within parent container */
 }
 
 /* a.bar:visited{
