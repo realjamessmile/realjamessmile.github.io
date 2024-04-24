@@ -6,6 +6,23 @@
     <link rel="icon" type="image/x-icon" href="assets/headshotjsmile.ico">
     <meta name="description" content="james smile">
     <meta name="keywords" content="james smile cybersecurity">
+
+<!-- clam animation -->
+    <script>
+        window.onload = function() {
+            const openCursor = 'assets/clam.png';
+            const closedCursor = 'assets/clam_closed.png';
+
+            document.body.addEventListener('mousedown', () => {
+                document.body.style.cursor = `url(${closedCursor}), auto`;
+            });
+
+            document.body.addEventListener('mouseup', () => {
+                document.body.style.cursor = `url(${openCursor}), auto`;
+            });
+        };
+    </script> <!-- clam animation -->
+    
 </head>
 
 <body class="home">
