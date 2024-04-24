@@ -1,4 +1,4 @@
-window.onload = function() {
+document.addEventListener('DOMContentLoaded', function() {
     const openCursor = 'assets/small-clam.png';
     const closedCursor = 'assets/small-clam-closed.png';
 
@@ -6,13 +6,11 @@ window.onload = function() {
     document.body.style.cursor = `url(${openCursor}), auto`;
 
     // Event listeners for the entire document body
-    document.body.addEventListener('mousedown', (event) => {
-        console.log("Mouse down detected");  // Check if this triggers
+    document.body.addEventListener('mousedown', () => {
         document.body.style.cursor = `url(${closedCursor}), auto`;  // Closed clam
     });
 
-    document.body.addEventListener('mouseup', (event) => {
-        console.log("Mouse up detected");  // Check if this triggers
+    document.body.addEventListener('mouseup', () => {
         document.body.style.cursor = `url(${openCursor}), auto`;  // Open clam
     });
-};
+});
