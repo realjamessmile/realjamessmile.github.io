@@ -63,7 +63,8 @@ body.classiccarpage{
 
 .textbox{
 display: inline-block; /* make box hug the text */
-background-color: rgba(190, 220, 255, 0.5);  /* 50% light blueish green */
+background-color: rgba(200, 230, 255, 0.5);  /* 50% light blueish green */
+border-radius: 10px;
 padding: 21px;
 margin: 10px;
 }
