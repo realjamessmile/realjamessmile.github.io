@@ -169,7 +169,7 @@ table, th, td {
     margin: 16px 2px;
   }
 
-#phish-button {
+.phish-button {
     padding: 15px 40px;
     color: black;
     font-weight: bold;
@@ -179,6 +179,19 @@ table, th, td {
     text-transform: uppercase;
     cursor: inherit;
     background: linear-gradient(to right, orange, yellow);
+    align-self: center; /* aligns itself within parent container */
+}
+
+.zappa-button {
+    padding: 15px 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: inherit;
+    background: linear-gradient(to right, rgb(0, 255, 21), yellow);
     align-self: center; /* aligns itself within parent container */
 }
 
