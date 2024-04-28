@@ -18,6 +18,20 @@ body.home{
     cursor: url('assets/small-clam.png'),auto;
 }
 
+body.zappa-dimension{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    color: chartreuse;
+    /* offset-x | offset-y | blur-radius | color */
+    /* text-shadow: 0px 0px 5px #FFFFFF; */
+    background-image: url('assets/zappa-red.jpg');
+    background-size: 300px;
+    background-repeat: repeat;
+    cursor: url('assets/small-clam.png'),auto;
+}
+
 body.danger-prod{
     background-image: url('assets/juliafractal.png');
     background-size: 300px;
@@ -46,6 +60,16 @@ a:hover {
     color: white;
 }
 
+.announcement{
+    /* align-items: right;
+    justify-content: right; */
+    text-align: right;
+    font-size: 15px;
+    font-style: italic;
+    text-align: right;
+    color: red;
+    background-color: rgba(200, 230, 255, 0.5);  /* 50% light blueish green */
+}
 
 .name {
     text-decoration: none;
@@ -76,7 +100,7 @@ a:hover {
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .stack{
