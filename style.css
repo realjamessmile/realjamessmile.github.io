@@ -61,14 +61,23 @@ a:hover {
 }
 
 .announcement{
-    /* align-items: right;
-    justify-content: right; */
-    text-align: right;
+    margin-top: 0%;
     font-size: 15px;
     font-style: italic;
     text-align: right;
-    color: red;
-    background-color: rgba(200, 230, 255, 0.5);  /* 50% light blueish green */
+    color: yellow;
+    text-shadow: 4px 2px 5px #4001ff;
+   /* background-color: rgba(200, 230, 255, 0.5);  /* 50% light blueish green */
+}
+
+.zappa-lyrics{
+    margin-top: 0%;
+    font-size: 25px;
+    font-style: italic;
+    text-align: right;
+    color: chartreuse;
+    text-shadow: 4px 4px 5px red;
+   /* background-color: rgba(200, 230, 255, 0.5);  /* 50% light blueish green */
 }
 
 .name {
@@ -77,6 +86,20 @@ a:hover {
     padding-left: 50px;
 }
     
+.logo-home {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    margin-right: 50px;
+}
+
+.logo-home img {
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
 .logo {
     position: absolute;
     top: 10px;
@@ -100,7 +123,7 @@ a:hover {
 .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .stack{
@@ -189,7 +212,7 @@ table, th, td {
     display: inline-block;
     font-size: 20px;
     cursor: inherit;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     margin: 16px 2px;
   }
 
@@ -202,6 +225,7 @@ table, th, td {
     border-radius: 5px;
     text-transform: uppercase;
     cursor: inherit;
+    font-family: 'Times New Roman', Times, serif;
     background: linear-gradient(to right, orange, yellow);
     align-self: center; /* aligns itself within parent container */
 }
@@ -215,6 +239,7 @@ table, th, td {
     border-radius: 5px;
     text-transform: uppercase;
     cursor: inherit;
+    font-family: 'Times New Roman', Times, serif;
     background: linear-gradient(to right, rgb(0, 255, 21), yellow);
     align-self: center; /* aligns itself within parent container */
 }
