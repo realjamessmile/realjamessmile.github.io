@@ -1,4 +1,4 @@
-const zappaFreq = 0.1; // likelihood of Zappa time
+const zappaFreq = 0.25; // likelihood of Zappa time
 
 document.addEventListener('DOMContentLoaded', function() {
     const audio = document.querySelector('#phish-audio');

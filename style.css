@@ -50,6 +50,12 @@ body.secsi-page{
     background-repeat: repeat;
 }
 
+body.hot-models{
+    background-image: url('assets/beigefractal2.png');
+    background-size: 300px;
+    background-repeat: repeat;
+}
+
 /* Use . for classes, # for IDs */
 
 a {
@@ -62,7 +68,7 @@ a:hover {
 
 .announcement{
     margin-top: 0%;
-    font-size: 15px;
+    font-size: 18px;
     font-style: italic;
     text-align: right;
     color: yellow;
@@ -140,6 +146,12 @@ padding: 21px;
 margin: 10px;
 }
 
+.model-name{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
 .headshot {
     margin-right: 30px;
     margin-bottom: 10px;
@@ -199,7 +211,7 @@ a.secsi-link:hover{
 
 table, th, td {
     border:1px solid black;
-    background-color: rgb(166, 246, 255)
+    background-color: rgb(166, 246, 255);
 }
 
 .button {
