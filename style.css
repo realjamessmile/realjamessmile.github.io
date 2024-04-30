@@ -121,7 +121,7 @@ a:hover {
 }
 
 .menu-bar{
-    align-items: right;
+    display: flex;
     justify-content: right;
     text-align: right;
 }
@@ -130,6 +130,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .stack{
@@ -144,6 +145,7 @@ background-color: rgba(200, 230, 255, 0.5);  /* 50% light blueish green */
 border-radius: 10px;
 padding: 21px;
 margin: 10px;
+max-width: 600px;
 }
 
 .model-name{
@@ -179,7 +181,7 @@ a.danger:hover{
     color:white;
 }
 
-a.car-link{
+.car-link {
     font-size: 25px;
     color: chartreuse;
     background-color: rgb(210, 160, 95);
@@ -188,20 +190,29 @@ a.car-link{
     cursor: inherit;
 }
 
-a.car-link:hover{
+.car-link > a{
+    color: chartreuse;
+}
+
+.car-link > a:hover{
     color: blue;
 }
 
-a.secsi-link{
+.secsi-link {
     font-size: 25px;
     color: pink;
+    display: auto;
     background-color: rgb(100, 30, 10);
     border: 3px solid white;
     padding: 10px 10px;
     cursor: inherit;
 }
 
-a.secsi-link:hover{
+.secsi-link > a {
+    color: pink;
+}
+
+.secsi-link > a:hover {
     color: blue;
 }
 
