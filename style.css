@@ -279,3 +279,13 @@ table, th, td {
   #classiccarcaption {
     font-size: 30px;
   }
+
+.cool-main-image {
+    padding: 20px;
+    width: min(calc(100% - 2*20px), 500px);
+}
+
+.cool-main-image-big {
+    padding: 20px;
+    width: min(calc(100% - 2*20px), 1000px);
+}
