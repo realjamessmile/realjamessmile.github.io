@@ -1,12 +1,15 @@
 <!doctype html>
 <html>
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css">
     <title>Cyber "naughty list"</title>
     <link rel="icon" type="image/x-icon" href="assets/headshotjsmile.ico">
     <meta name="description" content="james smile">
     <meta name="keywords" content="james smile cybersecurity">
     <script src="clam-cursor.js"></script> <!-- clam cursor click animation -->
+
 </head>
 
 <body class="danger-prod">
@@ -20,7 +23,7 @@
           <th>Item</th>
           <th>Notes</th>
           <th>S.E.C.S.I.* score</th>
-          <th>URL (reference only) UPDATE: CLICKING DISABLED!</th>
+          <th>URL (reference only) <br>UPDATE: CLICKING DISABLED!</th>
           <th>Image</th>
         </tr>
 <!--     smart toilet     -->
@@ -32,7 +35,7 @@
             take the ole ballcock and lever over this electronic 
             monstrosity anytime.</td>
           <td>8 (Cyber sitting duck)</td>
-          <td>https://iopscience.iop.org/article/10.1088/1742-6596/1684/1/012038/pdf </td>
+          <td><span class="show-link"  style="color: red;" onclick="toggleLink(this)">Show Link<br>(NOT reccomended)</span><span class="danger-link"><br>https://iopscience.iop.org/article/10.1088/1742-6596/1684/1/012038/pdf</span></td>
           <td><img src="assets/danger-products/smart-toilet.jpg" alt="Dumb toilet" height="150">
           </td>
         </tr>
@@ -41,7 +44,7 @@
             <td>Nose and Ear Hair Trimmer</td>
             <td>Lousy.</td>
             <td>6 (Cyber nail-biter)</td>
-            <td>https://www.sharperimage.com/view/product/Nose+and+Ear+Hair+Trimmer/205807 </td>
+            <td><span class="show-link"  style="color: red;" onclick="toggleLink(this)">Show Link<br>(NOT reccomended)</span><span class="danger-link"><br>https://www.sharperimage.com/view/product/Nose+and+Ear+Hair+Trimmer/205807</span></td>
             <td><img src="assets/danger-products/nosetrimmer.jpg" alt="Nose trimmer" height="150">
             </td>
           </tr>
@@ -51,7 +54,7 @@
             <td>McAfee "Anti" Virus</td>
             <td>Dumping cold water on your monitor is a more effective anti-virus than this steaming mound. It's NORTON or bust, no two ways about it. </td>
             <td>11 (Cyber catastrophe)</td>
-            <td>https://www.mcafee.com/en-us/antivirus/mcafee-total-protection.html </td>
+            <td><span class="show-link"  style="color: red;" onclick="toggleLink(this)">Show Link<br>(NOT reccomended)</span><span class="danger-link"><br>https://iopscience.iop.org/article/10.1088/1742-6596/1684/1/012038/pdf</span></td>
             <td><img src="assets/danger-products/mcafee.png" alt="Mcafee" height="150">
             </td>
           </tr>
@@ -60,8 +63,9 @@
             <td>Lenovo Smart Bulb</td>
             <td>"smart" bulb’?? I don’t think so. Bad actors could hack your bulb to make it strobe and give you a headache. throw out your #dumbbulb now </td>
             <td>7 (Cyber-canary-in-the-coal-mine)</td>
-            <td>https://www.lenovo.com/us/en/p/smart-devices/smart-home-series </td>
+            <td><span class="show-link"  style="color: red;" onclick="toggleLink(this)">Show Link<br>(NOT reccomended)</span><span class="danger-link"><br>https://www.lenovo.com/us/en/p/smart-devices/smart-home-series</span></td>
             <td><img src="assets/danger-products/bulb.png" alt="Bulb" height="150">
+            <td>
             </td>
           </tr>
 <!--          -->
@@ -71,5 +75,18 @@
     </table>
     
     <br>*Smile Empirical Cyber Security Index
+
+    <script> /*Show/hide link toggle*/
+        function toggleLink(element) {
+            var linkSpan = element.nextElementSibling;
+            if (linkSpan.style.display === "none") {
+                linkSpan.style.display = "inline";
+                element.innerHTML = "Hide Link";
+            } else {
+                linkSpan.style.display = "none";
+                element.innerHTML = "Show Link<br>(NOT reccomended)";
+            }
+        }
+    </script>
 </body>
 </html>

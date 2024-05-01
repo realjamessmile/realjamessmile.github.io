@@ -163,7 +163,7 @@ max-width: 50%;
 }
 
 #toaster-cartoon{
-    margin-top: 500px;
+    margin-top: 100px;
 }
 
 
@@ -240,9 +240,16 @@ a.danger{
     color: red;
 }
 
+.danger-link{
+    display: none; 
+    font-size: 8px;
+}
+
 table, th, td {
     border:1px solid black;
     background-color: rgb(166, 246, 255);
+    padding: 5px;
+    font-size: 20px;
 }
 
 .button {
@@ -289,7 +296,7 @@ table, th, td {
     color: blue;
     text-decoration: underline;
     border-color: blue;
-}
+}/*
 
   #classiccarpic {
     border:20px solid burlywood;
@@ -300,15 +307,18 @@ table, th, td {
     font-size: 30px;
   }
 
+<<<<<<< HEAD
 
   /*mobile breakpoints */
 @media (max-width: 780px) {
 
     .container{
         justify-content: center;
+        justify-items: center;
+        margin-bottom: 20px;
     }
     .textbox{
-        max-width: 100vw;
+        max-width: 80vw;
     }
     .menu-bar{
         justify-content: center;
@@ -329,6 +339,25 @@ table, th, td {
 
     .name {
         font-size: 25px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
+        margin-top: 6px;
     }
+
+    td{
+        font-size: 20px;
+    }
+
     
+}
+
+
+/*.cool-main-image {
+    padding: 20px;
+    width: min(calc(100% - 2*20px), 500px);
+}
+
+.cool-main-image-big {
+    padding: 20px;
+    width: min(calc(100% - 2*20px), 1000px);
+}
+*/
