@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content=e-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css">
     <title>Cyber "naughty list"</title>
     <link rel="icon" type="image/x-icon" href="assets/headshotjsmile.ico">
@@ -21,70 +21,65 @@
     <table style="width:100%">
         <tr>
           <th>Item</th>
+          <th>Image</th>
           <th>Notes</th>
           <th>S.E.C.S.I.* score</th>
           <th>URL (reference only) <br>UPDATE: CLICKING DISABLED!</th>
-          <th>Image</th>
         </tr>
 <!--     smart toilet     -->
-        <tr>
-          <td>"Smart" toilet and bidet combination</td>
-          <td>Sure, who doesn't like a spritz under the chassis 
-            now and then, but not if a hacker's got his finger on 
-            the trigger. When it comes to cybersecurity, I'll 
-            take the ole ballcock and lever over this electronic 
-            monstrosity anytime.</td>
-          <td>8 (Cyber sitting duck)</td>
-          <td><span class="show-link"  style="color: red;" onclick="toggleLink(this)">Show Link<br>(NOT reccomended)</span><span class="danger-link"><br>https://iopscience.iop.org/article/10.1088/1742-6596/1684/1/012038/pdf</span></td>
-          <td><img src="assets/danger-products/smart-toilet.jpg" alt="Dumb toilet" height="150">
-          </td>
-        </tr>
+    <tr>
+        <td data-label="Item"><div>"Smart" toilet and bidet combination</div></td>
+        <td data-label="Image"><img src="assets/danger-products/smart-toilet.jpg" alt="Dumb toilet"></td>
+        <td data-label="Notes"><div>Sure, who doesn't like a spritz under the chassis now and then, but not if a hacker's got his finger on the trigger. When it comes to cybersecurity, I'll take the ole ballcock and lever over this electronic monstrosity anytime.</div></td>
+        <td data-label="S.E.C.S.I.* score"><div>8 (Cyber sitting duck)</div></td>
+        <td data-label="URL (reference only) UPDATE: CLICKING DISABLED!"><div><span class="show-link" onclick="toggleLink(this)">Show Link (NOT recommended)</span><span class="danger-link"><br>https://iopscience.iop.org/article/10.1088/1742-6596/1684/1/012038/pd</span></div></td>
+    </tr>
 <!--     trimmer     -->
-        <tr>
-            <td>Nose and Ear Hair Trimmer</td>
-            <td>Lousy.</td>
-            <td>6 (Cyber nail-biter)</td>
-            <td><span class="show-link"  style="color: red;" onclick="toggleLink(this)">Show Link<br>(NOT reccomended)</span><span class="danger-link"><br>https://www.sharperimage.com/view/product/Nose+and+Ear+Hair+Trimmer/205807</span></td>
-            <td><img src="assets/danger-products/nosetrimmer.jpg" alt="Nose trimmer" height="150">
-            </td>
-          </tr>
-<!--     McAfee     -->
 
-        <tr>
-            <td>McAfee "Anti" Virus</td>
-            <td>Dumping cold water on your monitor is a more effective anti-virus than this steaming mound. It's NORTON or bust, no two ways about it. </td>
-            <td>11 (Cyber catastrophe)</td>
-            <td><span class="show-link"  style="color: red;" onclick="toggleLink(this)">Show Link<br>(NOT reccomended)</span><span class="danger-link"><br>https://iopscience.iop.org/article/10.1088/1742-6596/1684/1/012038/pdf</span></td>
-            <td><img src="assets/danger-products/mcafee.png" alt="Mcafee" height="150">
-            </td>
-          </tr>
+    <tr>
+        <td data-label="Item"><div>Nose and Ear Hair Trimmer</div></td>
+        <td data-label="Image"><img src="assets/danger-products/nosetrimmer.jpg" alt="Nose Trimmer"></td>
+        <td data-label="Notes"><div>Lousy.</div></td>
+        <td data-label="S.E.C.S.I.* score"><div>6 (Cyber nail-biter)</div></td>
+        <td data-label="URL (reference only) UPDATE: CLICKING DISABLED!"><div><span class="show-link" onclick="toggleLink(this)">Show Link (NOT recommended)</span><span class="danger-link"><br>https://www.sharperimage.com/view/product/Nose+and+Ear+Hair+Trimmer/205807</span></div></td>
+    </tr>
+
+<!--     McAfee     -->
+    <tr>
+        <td data-label="Item"><div>McAfee "Anti" Virus</div></td>
+        <td data-label="Image"><img src="assets/danger-products/mcafee.png" alt="Mcafee"></td>
+        <td data-label="Notes"><div>Dumping cold water on your monitor is a more effective anti-virus than this steaming mound. It's NORTON or bust, no two ways about it.</div></td>
+        <td data-label="S.E.C.S.I.* score"><div>11 (Cyber catastrophe)</div></td>
+        <td data-label="URL (reference only) UPDATE: CLICKING DISABLED!"><div><span class="show-link" onclick="toggleLink(this)">Show Link (NOT recommended)</span><span class="danger-link"><br>https://iopscience.iop.org/article/10.1088/1742-6596/1684/1/012038/pdf</span></div></td>
+    </tr>
+
+
 <!--     Bulb     -->
         <tr>
-            <td>Lenovo Smart Bulb</td>
-            <td>"smart" bulb’?? I don’t think so. Bad actors could hack your bulb to make it strobe and give you a headache. throw out your #dumbbulb now </td>
-            <td>7 (Cyber-canary-in-the-coal-mine)</td>
-            <td><span class="show-link"  style="color: red;" onclick="toggleLink(this)">Show Link<br>(NOT reccomended)</span><span class="danger-link"><br>https://www.lenovo.com/us/en/p/smart-devices/smart-home-series</span></td>
-            <td><img src="assets/danger-products/bulb.png" alt="Bulb" height="150">
-            <td>
-            </td>
-          </tr>
+        <td data-label="Item"><div>Lenovo Smart Bulb</div></td>
+        <td data-label="Image"><img src="assets/danger-products/bulb.png" alt="Bulb"></td>
+        <td data-label="Notes"><div>"smart" bulb’?? I don’t think so. Bad actors could hack your bulb to make it strobe and give you a headache. throw out your #dumbbulb now</div></td>
+        <td data-label="S.E.C.S.I.* score"><div>7 (Cyber-canary-in-the-coal-mine)</div></td>
+        <td data-label="URL (reference only) UPDATE: CLICKING DISABLED!"><div><span class="show-link" onclick="toggleLink(this)">Show Link (NOT recommended)</span><span class="danger-link"><br>https://www.lenovo.com/us/en/p/smart-devices/smart-home-series</span></div></td>
+    </tr>
+
 <!--          -->
 
 
         
     </table>
     
-    <br>*Smile Empirical Cyber Security Index
+    <br><b>*Smile Empirical Cyber Security Index
 
     <script> /*Show/hide link toggle*/
         function toggleLink(element) {
             var linkSpan = element.nextElementSibling;
-            if (linkSpan.style.display === "none") {
-                linkSpan.style.display = "inline";
-                element.innerHTML = "Hide Link";
+            if (linkSpan.style.display === 'none' || linkSpan.style.display === '') { //if it hasn't been cleeked yet
+                linkSpan.style.display = 'inline';  // shows link
+                element.innerHTML = 'Hide Link (NOT recommended)';
             } else {
-                linkSpan.style.display = "none";
-                element.innerHTML = "Show Link<br>(NOT reccomended)";
+                linkSpan.style.display = 'none';    // hides link
+                element.innerHTML = 'Show Link (NOT recommended)';
             }
         }
     </script>
