@@ -321,7 +321,6 @@ td > img{
 .textbook img{
     width:35vw;
     margin-right: 20px;
-
 }
 
 
@@ -398,8 +397,8 @@ td > img{
     }
 
     .textbook img{
-    width: 400px;
-    margin-right: 20px;
+    width: 80vw;
+    margin-right: 0px;
 
     }
 
