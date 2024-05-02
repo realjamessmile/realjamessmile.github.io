@@ -326,7 +326,7 @@ td > img{
 
 
   /*mobile breakpoints */
-@media (min-width: 800px) {
+@media (max-width: 800px) {
 
     .container{
         justify-content: center;
