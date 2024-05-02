@@ -3,7 +3,7 @@ const zappaFreq = 0.25; // likelihood of Zappa time
 document.addEventListener('DOMContentLoaded', function() {
     const audio = document.querySelector('#phish-audio');
     let vol = 0.25;
-    let scrl = 5;
+    let scrl = 7;
     let zappaFlag = false;
     audio.src = "assets/phish.mp3";
     audio.volume = vol;

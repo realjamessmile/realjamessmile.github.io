@@ -226,9 +226,9 @@ background-color: orange;
     border-color: red;
 }
 
-.danger-card:hover {
+/*.danger-card:hover {
     background-color: yellow;
-}
+}*/
 
 /* Commented out as it seems you might not need changes to a links on hover */
 /* .danger-card:hover a {

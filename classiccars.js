@@ -4,7 +4,7 @@ var carData = [
     {'img': '1968MercuryMonterey.jpg', 'name': '1968 Mercury Monterey'},
     {'img': '1961PlymouthFury.jpg', 'name': '1961 Plymouth Fury (Blue Beauty!)'},
     {'img': '1947ChryslerTownAndCountry.png', 'name': '1947 Chrysler Town and Country (Youd never guess shes really a city girl!)'},
-    {'img': '1962CorvetteRoadster.jpeg', 'name': '1962 Corvette Roadster (is it just me or is it getting hot in here?)'}
+    {'img': '1962CorvetteRoadster.jpeg', 'name': '1962 Corvette Roadster (Is it getting hot in here?)'}
      
 ]
 
