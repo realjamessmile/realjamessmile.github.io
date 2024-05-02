@@ -71,7 +71,6 @@ a:hover {
     text-align: right;
     color: yellow;
     text-shadow: 4px 2px 5px #4001ff;
-   /* background-color: rgba(200, 230, 255, 0.5);  /* 50% light blueish green */
 }
 
 .zappa-lyrics{
@@ -81,7 +80,6 @@ a:hover {
     text-align: right;
     color: chartreuse;
     text-shadow: 4px 4px 5px red;
-   /* background-color: rgba(200, 230, 255, 0.5);  /* 50% light blueish green */
 }
 
 .name {
@@ -149,17 +147,16 @@ max-width: 50%;
 }
 
 .headshot {
-/*    margin-right: 30px;*/
     margin-bottom: 10px;
 }
 
 #headshot {
-    border: solid 10px transparent;
+    border: solid 10px white;
     align-self: center;
 }
 
 #headshot:hover {
-    border: solid 10px red;
+    border: solid 10px chartreuse;
     cursor: url('assets/clam-pearl.jpeg');
 }
 
@@ -289,16 +286,16 @@ td > img{
   }
 
 .phish-button, .zappa-button{
-    padding: 15px 40px;
+    padding: 15px 2px;
     color: black;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     border: 2px solid white;
     text-transform: uppercase;
     cursor: inherit;
     font-family: 'Times New Roman', Times, serif;
     align-self: center;
-    width: 90%;
+    width: 100%;
 }
 
 .phish-button{
@@ -321,6 +318,12 @@ td > img{
     flex-direction: column;
 }
 
+.textbook img{
+    width:35vw;
+    margin-right: 20px;
+
+}
+
 
   /*mobile breakpoints */
 @media (max-width: 780px) {
@@ -339,21 +342,65 @@ td > img{
     }
 
     #headshot{
-        max-width: 100%;
+        width: 200px;
+        justify-self: center;
+        border-width: 5px;
+    }
+
+    #headshot:hover{
+        border-width: 5px;
+    }
+
+    .bio-text{
+        font-size: 18px;
+        line-height: 120%;
+    
+    }
+
+    .textbox{
+        max-width: 90vw;
+        padding: 10px;
+        margin: 0;
     }
 
     .card{
-        min-width:80%;
+    width: 80%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
     }
 
     .card-row{
         justify-content: center;
+        margin-top: 0px;
     }
 
     .name {
         font-size: 25px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         margin-top: 6px;
+        margin-left: 25px;
+    }
+
+    .logo-home{
+        margin-left: 15px;
+    }
+
+    .car-link{
+        width: 80vw;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .phish-button{
+        padding: 10px;
+    }
+
+    .textbook img{
+    width: 400px;
+    margin-right: 20px;
+
     }
 
     table {
