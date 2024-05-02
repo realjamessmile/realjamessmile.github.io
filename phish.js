@@ -50,9 +50,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 else if (clickCount==2){
                     phishButton.textContent = 'RUN FASTER MUFFIN MAN!';
                 }
+                else if (clickCount==10){
+                    phishButton.textContent = 'ESCAPE THE ZAPPAVERSE?';
+                }
+                else if (clickCount==11){
+                    window.location.reload();
+                }
                 else{
-                    phishButton.textContent = 'THERE IS NO ESCAPE FROM THE ZAPPA DIMENSION';
-                    banner.textContent = "THERE IS NO ESCAPE FROM THE ZAPPA DIMENSION. THERE IS NO ESCAPE FROM THE ZAPPA DIMENSION. THERE IS NO ESCAPE FROM THE ZAPPA DIMENSION."
+                    phishButton.textContent = 'THERE IS NO ESCAPE FROM THE ZAPPAVERSE';
+                    banner.textContent = "THERE IS NO ESCAPE FROM THE ZAPPAVERSE. THERE IS NO ESCAPE FROM THE ZAPPAVERSE. THERE IS NO ESCAPE FROM THE ZAPPAVERSE."
                     headshot.src = "assets/zappa-stare.jpeg";
                 }
                                 clickCount = clickCount + 1;
