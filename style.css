@@ -85,6 +85,7 @@ a:hover {
 }
 
 .name {
+    
     text-decoration: none;
     margin-left: 20px;
     padding-left: 50px;
@@ -224,32 +225,53 @@ background-color: orange;
 
 }
 
-.danger-card{
+.danger-card {
     border-color: red;
 }
 
-.danger-card:hover{
+.danger-card:hover {
     background-color: yellow;
 }
 
-.danger-card:hover a{
-/*    color: white;*/
-}
+/* Commented out as it seems you might not need changes to a links on hover */
+/* .danger-card:hover a {
+    color: white;
+} */
 
-a.danger{
+a.danger {
     color: red;
 }
 
-.danger-link{
+.danger-link { /*doesn't show until you click show link*/
     display: none; 
-    font-size: 8px;
+    word-break: break-all;
+}
+
+.show-link{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 table, th, td {
-    border:1px solid black;
-    background-color: rgb(166, 246, 255);
-    padding: 5px;
+    border: 1px solid black;
+    padding:0;
+    background-color: rgba(166, 246, 255, .5);
     font-size: 20px;
+    align-content: center;
+}
+
+th{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+td > div{
+        margin: 20px;
+}
+
+td > img{
+    width: 350px;
+    height:150px;
 }
 
 .button {
@@ -266,7 +288,7 @@ table, th, td {
     margin: 16px 2px;
   }
 
-.phish-button {
+.phish-button, .zappa-button{
     padding: 15px 40px;
     color: black;
     font-weight: bold;
@@ -275,39 +297,30 @@ table, th, td {
     text-transform: uppercase;
     cursor: inherit;
     font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(to right, orange, yellow);
     align-self: center;
     width: 90%;
 }
 
+.phish-button{
+    background: linear-gradient(to right, orange, yellow);
+}
+
 .zappa-button {
-    padding: 15px 40px;
-    color: black;
-    font-weight: bold;
-    font-size: 24px;
-    border: 2px solid white;
-    cursor: inherit;
-    font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(to right, rgb(0, 255, 21), yellow);
-    align-self: center; /* aligns itself within parent container */
+    background: linear-gradient(to right, indigo, crimson);
+    border-color: indigo;
+    color: white;
 }
 
 #phish-button:hover {
     color: blue;
     text-decoration: underline;
     border-color: blue;
-}/*
+}
 
-  #classiccarpic {
-    border:20px solid burlywood;
-    margin: 16px;
-  }
+.model-container{
+    flex-direction: column;
+}
 
-  #classiccarcaption {
-    font-size: 30px;
-  }
-
-<<<<<<< HEAD
 
   /*mobile breakpoints */
 @media (max-width: 780px) {
@@ -343,21 +356,51 @@ table, th, td {
         margin-top: 6px;
     }
 
-    td{
-        font-size: 20px;
+    table {
+        max-width: 100vw;
+        padding: 0px;
+        display: block;
+        border: none;
     }
 
-    
-}
+    th, td {
+        display: block;
+        font-size: 16px;
+        padding: 0px;
+        width: 100%;
+        text-align: left; 
+    }
+
+    th {
+        display: none; /* Hide header on mobile */
+    }
 
 
-/*.cool-main-image {
-    padding: 20px;
-    width: min(calc(100% - 2*20px), 500px);
-}
+    td:before { /*headers above each item on mobile (vs just at the top once)*/
+        content: attr(data-label);
+        font-weight: bold;
+        display: inline-block;
+        width: 100%;
+        background-color: rgba(255,255,255, .5);
+        padding: 5px; 
+        box-sizing: border-box;
+    }
 
-.cool-main-image-big {
-    padding: 20px;
-    width: min(calc(100% - 2*20px), 1000px);
+    td > div {
+        padding: 8px;
+        margin:0px;
+    }
+
+    td > img{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    /* Thicc black line separating entries */
+    td[data-label="URL (reference only) UPDATE: CLICKING DISABLED!"] {
+        border-bottom: 8px solid black; /* Thick black line */
+    }
+
 }
-*/
