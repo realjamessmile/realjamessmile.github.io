@@ -133,11 +133,11 @@ a:hover {
 
 .textbox{
 display: inline-block;
-background-color: rgba(200, 230, 255, 0.5);  /* 50% light blueish green */
-border-radius: 10px;
-padding: 21px;
+background-color: rgba(145, 195, 255, 0.5);  /* 50% light blueish green */
+/*border-radius: 10px;*/
+padding: 2px;
 margin: 10px;
-max-width: 50%;
+max-width: 60%;
 }
 
 .model-name{
@@ -165,13 +165,14 @@ max-width: 50%;
 }
 
 
-.car-link {
+.car-link {/*intentional eyesore*/
     font-size: 25px;
     background-color: chartreuse;
-    border: 3px solid blue;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+/*    border: 3px solid blue;*/
+/*    padding: 10px 10px;*/
+    margin-bottom: 5px;
     cursor: inherit;
+    max-width: 75vw;
 }
 
 .car-link:hover{
@@ -192,23 +193,27 @@ background-color: orange;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    margin-top: 50px;
+    margin-top: 5px;
     margin-bottom: 50px;
 }
 
-.card {
+.card {/*intentional eyesore*/
     background-color: #f1f1f1;
-    padding: 20px;
-    margin: 10px;
-    border: solid blue;
-    align-content: center;
+/*    padding: 20px;*/
+    border-color: black;
+    border: solid black;
+    margin: 2px;
+    border: solid chartreuse;
+    background-color: rgba(255,255,255,.9);
+/*    align-content: center;*/
     border-width: 3px;
-    text-align: center;
+    text-align: left;
     width: 200px;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.2);
 }
 
 .card:hover {
-/*    box-shadow: 0 4px 0px 0 rgba(0, 0, 0, .4);*/
+    box-shadow: 0 4px 0px 0px rgba(0, 0, 0, .2);
     background-color: chartreuse;
 }
 
@@ -225,15 +230,6 @@ background-color: orange;
 .danger-card {
     border-color: red;
 }
-
-/*.danger-card:hover {
-    background-color: yellow;
-}*/
-
-/* Commented out as it seems you might not need changes to a links on hover */
-/* .danger-card:hover a {
-    color: white;
-} */
 
 a.danger {
     color: red;
@@ -252,18 +248,18 @@ a.danger {
 
 table, th, td {
     border: 1px solid black;
-    padding:0;
+/*    padding:0;*/
     background-color: rgba(166, 246, 255, .5);
     font-size: 20px;
     align-content: center;
 }
 
 th{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 1);
 }
 
-td > div{
-        margin: 20px;
+td > div{/*intentional eyesore*/
+/*        margin: 20px;*/
 }
 
 td > img{
@@ -286,7 +282,7 @@ td > img{
   }
 
 .phish-button, .zappa-button{
-    padding: 15px 2px;
+    padding: 10px 0px;
     color: black;
     font-weight: bold;
     font-size: 20px;
@@ -294,7 +290,6 @@ td > img{
     text-transform: uppercase;
     cursor: inherit;
     font-family: 'Times New Roman', Times, serif;
-    align-self: center;
     width: 100%;
 }
 
@@ -319,7 +314,7 @@ td > img{
 }
 
 .textbook img{
-    width:35vw;
+    max-width: 30vw;
     margin-right: 20px;
 }
 
@@ -351,8 +346,8 @@ td > img{
     }
 
     .bio-text{
-        font-size: 18px;
-        line-height: 120%;
+        font-size: 16px;
+        line-height: 100%;
     
     }
 
@@ -362,12 +357,12 @@ td > img{
         margin: 0;
     }
 
-    .card{
-    width: 80%;
-    padding: 10px;
+    .card{ /*intentional eyesore*/
+    width: 30%;
+/*    padding: 10px;*/
     font-size: 20px;
-    margin-bottom: 10px;
-    margin-top: 0px;
+    margin-bottom: 20px;
+/*    margin-top: 0px;*/ 
     }
 
     .card-row{
@@ -387,9 +382,9 @@ td > img{
     }
 
     .car-link{
-        width: 80vw;
+        width: 100vw;
         font-size: 18px;
-        padding: 10px;
+        padding: 2px;
     }
 
     .phish-button{
@@ -397,7 +392,7 @@ td > img{
     }
 
     .textbook img{
-    width: 80vw;
+    width: 20vw;
     margin-right: 0px;
 
     }
@@ -427,13 +422,13 @@ td > img{
         font-weight: bold;
         display: inline-block;
         width: 100%;
-        background-color: rgba(255,255,255, .5);
-        padding: 5px; 
+        background-color: rgba(255,255,255, 1);
+        padding: 0px; 
         box-sizing: border-box;
     }
 
-    td > div {
-        padding: 8px;
+    td > div {/*intentional eyesore*/
+        padding: 4px;
         margin:0px;
     }
 
