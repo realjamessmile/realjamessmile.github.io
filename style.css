@@ -10,7 +10,7 @@ body.home{
     font-weight: bold;
     /* offset-x | offset-y | blur-radius | color */
     /* text-shadow: 0px 0px 5px #FFFFFF; */
-    background-image: url('assets/fractal.jpg');
+    background-image: url('assets/fractals/fractal.jpg');
     background-size: 300px;
     background-repeat: repeat;
     cursor: url('assets/small-clam.png'),auto;
@@ -31,25 +31,25 @@ body.zappa-dimension{
 }
 
 body.danger-prod{
-    background-image: url('assets/juliafractal.png');
+    background-image: url('assets/fractals/juliafractal.png');
     background-size: 300px;
     background-repeat: repeat;
 }
 
 body.classiccarpage{
-    background-image: url('assets/beigefractal.png');
+    background-image: url('assets/fractals/beigefractal.png');
     background-size: 300px;
     background-repeat: repeat;
 }
 
 body.secsi-page{
-     background-image: url('assets/bombastic-fractal.png');
+     background-image: url('assets/fractals/bombastic-fractal.png');
     background-size: 300px;
     background-repeat: repeat;
 }
 
 body.hot-models{
-    background-image: url('assets/beigefractal2.png');
+    background-image: url('assets/fractals/beigefractal2.png');
     background-size: 300px;
     background-repeat: repeat;
 }
