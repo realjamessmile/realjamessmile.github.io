@@ -11,7 +11,7 @@ body.home{
     /* offset-x | offset-y | blur-radius | color */
     /* text-shadow: 0px 0px 5px #FFFFFF; */
     background-image: url('assets/fractals/fractal.jpg');
-    background-size: 300px;
+    background-size: 30vw;
     background-repeat: repeat;
     cursor: url('assets/small-clam.png'),auto;
 }
@@ -25,9 +25,16 @@ body.zappa-dimension{
     /* offset-x | offset-y | blur-radius | color */
     /* text-shadow: 0px 0px 5px #FFFFFF; */
     background-image: url('assets/zappa-red.jpg');
-    background-size: 300px;
+    background-size: 30vw;
     background-repeat: repeat;
     cursor: url('assets/small-clam.png'),auto;
+}
+
+body.box-of-rain-page{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    background-size: 300px;
+    background-repeat: repeat;
 }
 
 body.danger-prod{
@@ -132,12 +139,12 @@ a:hover {
 }
 
 .textbox{
-display: inline-block;
-background-color: rgba(145, 195, 255, 0.5);  /* 50% light blueish green */
-/*border-radius: 10px;*/
-padding: 2px;
-margin: 10px;
-max-width: 60%;
+    display: inline-block;
+    background-color: rgba(145, 195, 255, 0.5);  /* 50% light blueish green */
+    /*border-radius: 10px;*/
+    padding: 2px;
+    margin: 10px;
+    max-width: 60%;
 }
 
 .model-name{
@@ -161,7 +168,13 @@ max-width: 60%;
 }
 
 #toaster-cartoon{
-    margin-top: 100px;
+    margin-top: 200px;
+    max-width: 50vw;
+    height: 50vh;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -318,6 +331,76 @@ td > img{
     margin-right: 20px;
 }
 
+.cool-main-image-big {
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30;
+    max-width:90vw;
+    height:90vh;
+    object-fit: contain;
+}
+
+/********** Range Input Styles **********/
+/*Range Reset*/
+input[type="range"] {
+    -webkit-appearance: none;
+     appearance: none;
+     background: transparent;
+     width: 50vw;
+ }
+ 
+ /* Removes default focus */
+ input[type="range"]:focus {
+   outline: none;
+ }
+ 
+ /***** Chrome, Safari, Opera and Edge Chromium styles *****/
+ /* slider track */
+ input[type="range"]::-webkit-slider-runnable-track {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    height: 0.5rem;  
+ }
+ 
+ /* slider thumb */
+ input[type="range"]::-webkit-slider-thumb {
+   -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    margin-top: -25px; /* Centers thumb on the track */
+ 
+    /*custom styles*/
+    background-image: url("assets/icons/win95icons/All/Blue\ dot.ico");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 4rem;
+    width: 4rem;
+ }
+
+ 
+ /******** Firefox styles ********/
+ /* slider track */
+ input[type="range"]::-moz-range-track {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    height: 0.5rem;
+ }
+ 
+ /* slider thumb */
+ input[type="range"]::-moz-range-thumb {
+    border: none; /*Removes extra border that FF applies*/
+    border-radius: 0; /*Removes default border-radius that FF applies*/
+ 
+    /*custom styles*/
+    background-image: url("assets/icons/win95icons/All/Blue\ dot.ico");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 4rem;
+    width: 4rem;
+ }
 
   /*mobile breakpoints */
 @media (max-width: 1000px) {
@@ -443,5 +526,4 @@ td > img{
     td[data-label="URL (reference only) UPDATE: CLICKING DISABLED!"] {
         border-bottom: 8px solid black; /* Thick black line */
     }
-
 }
