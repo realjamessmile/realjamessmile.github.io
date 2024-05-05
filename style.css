@@ -323,6 +323,19 @@ td > img{
     border-color: blue;
 }
 
+.play-button{
+    padding: 10px 0px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid white;
+    text-transform: uppercase;
+    cursor: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    background: blue;
+}
+
 .model-container{
     flex-direction: column;
 }
