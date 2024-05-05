@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const audio = document.querySelector('#box-audio');
-    let vol = 0.5;
-    audio.src = "assets/box-of-rain.mp3";
+    let vol = 0;
     audio.volume = vol;
     audio.play();
 
