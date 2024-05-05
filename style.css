@@ -332,8 +332,14 @@ td > img{
     text-transform: uppercase;
     cursor: inherit;
     font-family: 'Times New Roman', Times, serif;
-    width: 100%;
+    width: 40vw;
     background: blue;
+}
+
+#play-button:hover {
+    color: yellow;
+    text-decoration: underline;
+    border-color: yellow;
 }
 
 .model-container{
@@ -362,7 +368,7 @@ input[type="range"] {
     -webkit-appearance: none;
      appearance: none;
      background: transparent;
-     width: 50vw;
+     max-width: 50vw;
      cursor: inherit;
  }
  
@@ -405,7 +411,8 @@ input[type="range"] {
     border-radius: 0; /*Removes default border-radius that FF applies*/
  
     /*custom styles*/
-    background-color: #5cd5eb;
+    background-color: blue;
+    border: 0.1rem solid white;
     height: 2rem;
     width: 2rem;
  }

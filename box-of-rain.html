@@ -19,21 +19,27 @@
 
 <body class="box-of-rain-page">
     <div style="padding:30px;">
-        Here it is.."Box of Rain" by the Grateful Dead. ~~~ Sit back with a <a href="assets/clamato.jpg" style="color:white;">clamato</a>, watch Windows 2 boot up, 
-        and think of better times..
+        Here it is.."Box of Rain" by the Grateful Dead. ~~~ Sit back with a cold <a href="assets/clamato.jpg" style="color:white;">clamato</a>, watch Windows 2 boot up, 
+        and think of better times....
     </div>
-    <button id="play-button">GO ON, JERRY</button>
-    <div style="display: inline;">
-        MELLOW JERRY
-        <img src="assets/icons/win95icons/All/Volume Wave.ico">
-        <input type="range" class="slider" id="volume-slider" value="50">
-        <img src="assets/icons/win95icons/All/Volume Up.ico">
-        LOUDER JERRY
+    <div class="container" style="flex-direction: column;">
+        <button id="play-button">
+            BOOT UP
+        </button>
+        <br>
+        <div style="display:none; font-size: 1.5vw;" id="slider">
+            mellow Jerry
+            <img src="assets/icons/win95icons/All/Volume Wave.ico">
+            <input type="range" class="slider" id="volume-slider" value="50">
+            <img src="assets/icons/win95icons/All/Volume.ico">
+            loud Jerry
+        </div>
     </div>
+    
 
     <audio src="assets/box-of-rain.mp3" id="box-audio"></audio>
     <br>
     <br>
-    <img class="cool-main-image-big" src="assets/windows-2-boot.png" alt="A beautiful sight" id="win2boot">
+    <img class="cool-main-image-big" src="assets/windows-2-boot.png" alt="A beautiful sight" id="win2boot" style="display:none;">
 </body>
 </html>

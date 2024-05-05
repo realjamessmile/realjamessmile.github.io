@@ -6,15 +6,20 @@ document.addEventListener('DOMContentLoaded', function() {
     const playButton = document.querySelector('#play-button');
     playButton.classList.add('play-button');
 
+    const winScreen = document.querySelector('#win2boot');
+    const slider = document.querySelector('#slider');
+
     // Function to toggle play/pause and update button text
     const togglePlay = () => {
         if (audio.paused){
             audio.play();
-            playButton.textContent = 'GO ON, JERRY';
+            playButton.textContent = 'HUSH NOW, JERRY';
+            winScreen.style.display='block';
+            slider.style.display='inline';
         }
         else {
             audio.pause();
-            playButton.textContent = 'HUSH NOW, JERRY';
+            playButton.textContent = 'GO ON, JERRY';
         }
     }
 
