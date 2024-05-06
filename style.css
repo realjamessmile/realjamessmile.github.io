@@ -130,6 +130,7 @@ a:hover {
     display: flex;
     justify-content: right;
     text-align: right;
+/*    flex-direction: column;*/
 }
 
 .container{
@@ -181,21 +182,19 @@ a:hover {
 
 .car-link {/*intentional eyesore*/
     font-size: 25px;
-    background-color: chartreuse;
-/*    border: 3px solid blue;*/
-/*    padding: 10px 10px;*/
+    color: white;
+    background-color: blue;
     margin-bottom: 5px;
     cursor: inherit;
     max-width: 75vw;
 }
 
 .car-link:hover{
-/*    border-color: white;*/
-background-color: orange;
+text-decoration: underline;
 }
 
 .car-link > a{
-    color: blue;
+    color: white;
     text-decoration: none;
 }
 
@@ -213,13 +212,11 @@ background-color: orange;
 
 .card {/*intentional eyesore*/
     background-color: #f1f1f1;
-/*    padding: 20px;*/
     border-color: black;
     border: solid black;
     margin: 2px;
     border: solid chartreuse;
     background-color: rgba(255,255,255,.9);
-/*    align-content: center;*/
     border-width: 3px;
     text-align: left;
     width: 200px;
@@ -281,46 +278,39 @@ td > img{
     height:150px;
 }
 
-.button {
-    background-color: rgb(172, 137, 91);
-    border: 5px solid chartreuse;
-    color: chartreuse;
+.button, #car-link {
+    background-color: blue;
+    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     cursor: inherit;
-    font-family: 'Times New Roman', Times, serif;
     margin: 16px 2px;
   }
 
-.phish-button, .zappa-button{
+.phish-button, .zappa-button {
     padding: 10px 0px;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-    border: 2px solid white;
-    text-transform: uppercase;
-    cursor: inherit;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: inherit;
     width: 100%;
 }
 
 .phish-button{
-    background: linear-gradient(to right, orange, yellow);
+    background: blue;
 }
 
 .zappa-button {
-    background: linear-gradient(to right, indigo, crimson);
-    border-color: indigo;
+    background: crimson;
     color: white;
 }
 
-#phish-button:hover {
-    color: blue;
+#phish-button:hover,#car-link:hover {
     text-decoration: underline;
-    border-color: blue;
 }
 
 .play-button{

@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to toggle play/pause and update button text
     const togglePhish = () => {
         if (audio.paused) {  // If audio is paused, play it
-            phishButton.textContent = '✋ STOP PHISHING ✋';
+            phishButton.textContent = 'STOP PHISHING';
             audio.play();
         }
         else {  // If audio is playing, pause it
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             else{
                 audio.pause();
-                phishButton.textContent = '🎣 PHISH ME 🎣';
+                phishButton.textContent = 'PHISH ME';
             }
         }
     };
