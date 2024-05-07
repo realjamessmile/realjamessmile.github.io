@@ -143,8 +143,6 @@ a:hover {
 .textbox{
     display: inline-block;
     background-color: rgba(201, 201, 201,0.7);
-    /* rgba(145, 195, 255, 0.5);  50% light blueish green */
-    /*border-radius: 10px;*/
     padding: 2px;
     margin: 10px;
     max-width: 60%;
@@ -277,6 +275,11 @@ td > div{/*intentional eyesore*/
 td > img{
     width: 350px;
     height:150px;
+}
+
+.bio-text > a{
+    text-decoration: underline;
+/*    color: blue;*/
 }
 
 .button, #car-link {
@@ -416,9 +419,13 @@ input[type="range"] {
         justify-content: center;
         justify-items: center;
         margin-bottom: 20px;
+        margin-right: 2px;
+        margin-left: 2px;
     }
     .textbox{
-        max-width: 80vw;
+        width: 100%;
+        font-size: 18px;
+
     }
     .menu-bar{
         justify-content: center;
@@ -433,12 +440,6 @@ input[type="range"] {
 
     #headshot:hover{
         border-width: 5px;
-    }
-
-    .bio-text{
-        font-size: 16px;
-        line-height: 100%;
-    
     }
 
     .textbox{
@@ -490,6 +491,10 @@ input[type="range"] {
         padding: 6px;
         padding-top: 12px;
         padding-block: 12px;
+    }
+
+    .bio-text{
+        font-size: 16px;
     }
 
     table {
