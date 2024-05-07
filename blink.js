@@ -1,6 +1,6 @@
 const avgBlinkPeriod = 20; // seconds
 
-let images = ['assets/headshotjsmile.JPG', 'assets/headshotjsmile-blink.JPG'];
+let images = ['assets/headshotjsmile.JPG', 'assets/headshotjsmile-blink.jpg'];
 
 let index = 0;
 let randn = Math.random();
