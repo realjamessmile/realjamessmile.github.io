@@ -142,7 +142,8 @@ a:hover {
 
 .textbox{
     display: inline-block;
-    background-color: rgba(145, 195, 255, 0.5);  /* 50% light blueish green */
+    background-color: rgba(201, 201, 201,0.7);
+    /* rgba(145, 195, 255, 0.5);  50% light blueish green */
     /*border-radius: 10px;*/
     padding: 2px;
     margin: 10px;
@@ -160,7 +161,7 @@ a:hover {
 }
 
 #headshot {
-    border: solid 10px white;
+    border: solid 10px rgb(201, 201, 201);
     align-self: center;
 }
 
@@ -279,13 +280,14 @@ td > img{
 }
 
 .button, #car-link {
-    background-color: blue;
-    color: white;
+    background-color: rgb(201, 201, 201);
+    color: blue;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
     font-size: 20px;
     cursor: inherit;
     margin: 16px 2px;
@@ -293,20 +295,20 @@ td > img{
 
 .phish-button, .zappa-button {
     padding: 10px 0px;
-    color: white;
+    color:blue;
     font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
     font-size: 20px;
     cursor: inherit;
     width: 100%;
 }
 
 .phish-button{
-    background: blue;
+    background: rgb(201, 201, 201);
 }
 
 .zappa-button {
-    background: crimson;
-    color: white;
+    background: chartreuse;
 }
 
 #phish-button:hover,#car-link:hover {
