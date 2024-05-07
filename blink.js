@@ -1,4 +1,4 @@
-const avgBlinkPeriod = 12; // average time between blinks (seconds)
+const avgBlinkPeriod = 16; // average time between blinks (seconds)
 
 let images = ['assets/headshotjsmile.JPG', 'assets/headshotjsmile-blink.jpg'];
 
