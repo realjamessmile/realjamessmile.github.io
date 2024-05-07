@@ -449,10 +449,8 @@ input[type="range"] {
 
     .card{ /*intentional eyesore*/
     width: 30%;
-/*    padding: 10px;*/
     font-size: 20px;
     margin-bottom: 20px;
-/*    margin-top: 0px;*/ 
     }
 
     .card-row{
@@ -485,6 +483,13 @@ input[type="range"] {
     width: 20vw;
     margin-right: 0px;
 
+    }
+
+    #car-link{
+        font-size: 16px;
+        padding: 6px;
+        padding-top: 12px;
+        padding-block: 12px;
     }
 
     table {
