@@ -8,7 +8,11 @@ var carData = [
     {'img': '1968FordLTD.jpg', 'name': '1968 Ford LTD (look at that thing glide)'},
     {'img': '1970Grumman-OlsonKurbmasterJunior.jpg', 'name': '1970 Grumman-Olson Kurbmaster Junior'},
     {'img': '1971DodgeSportsman.jpg', 'name': '1971 Dodge Sportsman'},
-    {'img': '1977DaihatsuCharade5door.jpg', 'name': '1977 Daihatsu Charade 5-door'}
+    {'img': '1977DaihatsuCharade5door.jpg', 'name': '1977 Daihatsu Charade 5-door'},
+    {'img': '1972HondaZ600.jpeg', 'name': '1972 Honda Z600'},
+    {'img': '1969CamaroZ28X77.jpeg', 'name': '1969 Camaro Z28 X77'}
+    
+
      
 ]
 

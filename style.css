@@ -44,6 +44,12 @@ body.danger-prod{
     background-repeat: repeat;
 }
 
+body.palace-of-lights{
+    background-image: url('assets/lamps/POL-interior.jpg');
+    background-size: 100vw;
+    background-repeat: repeat;
+}
+
 body.classiccarpage{
     background-image: url('assets/fractals/beigefractal.png');
     background-size: 20vw;
@@ -156,6 +162,16 @@ a:hover {
 
 .headshot {
     margin-bottom: 10px;
+}
+
+#POL-banner{
+    width:400px; 
+}
+
+#POL-logo{
+    max-width:94vw; 
+    border: solid black; 
+    border-width: 5px;
 }
 
 #headshot {
@@ -440,6 +456,10 @@ input[type="range"] {
 
     #headshot:hover{
         border-width: 5px;
+    }
+
+    #POL-banner{
+        max-width: 100%; 
     }
 
     .textbox{
