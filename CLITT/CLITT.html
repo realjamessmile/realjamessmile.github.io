@@ -1,0 +1,409 @@
+<!doctype html>
+<html>
+<head>
+    <title>CLITT</title>
+    <link rel="icon" type="image/x-icon" href="assets/headshotjsmile.ico">
+    <link rel=stylesheet type="text/css" href="style-CLITT.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+    <table style="width: 100%; height: 100%" border=0 cellpadding=0 cellspacing=0>
+        <tr class="fn HomeSmile">
+            <td style="text-align: right; padding: 2px 10px 2px 0px" colspan=7>
+                <a href="CLITT.html" style="color: white">Home</a>
+                 | 
+                <a href="../index.html" style="color: white">James Smile, M.Sc.I.T.</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 12px" rowspan=4>
+            </td>
+            <td colspan=5 style="padding: 0.4em 0px 0.4em 0px; height: 1ex" bgcffolor=#ff0000>
+                <table border=0 cellpadding=0 cellspacing=0">
+                    <tr>
+                        <td>
+                            <img src="CLITT-assets/CLITT-logo.PNG" hspace=5 style="width: 160px; height: 40px" align=left style="vertical-align: middle; wiefdth: 8em; hfeeight: 2.84444em" border=0 alt="Center for Nonlinear Studies">
+                        </td>
+                        <td style="vertical-align: middle">
+                            <span class=enormous>
+                                <b>&nbsp;The Citizens' League for Intelligent Touch-Typing (CLITT)</b>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td style="width: 10px"></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; width: 1%">
+                <table class=tabMenu style="width: 8em; border: 2px 2px; padding: 0px 0px; 
+                margin: 0px 0px">
+
+                    <tr>
+                        <td class=tdMenu>
+                            <a class=cell href="CLITT.html">
+                                <span class="WeAreHere Menu">&nbsp;Home&nbsp;</span>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <!-- People -->
+
+                    <tr>
+                        <td class=tdMenu>
+                            <a class=cell href="CLITT-people.html">
+                                <span class=Menu>&nbsp;People&nbsp;</span>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <!-- Free Lunch -->
+
+                    <tr>
+                        <td class=tdMenu>
+                            <a class=cell href="CLITT-lunch.html">
+                                <span class=Menu>&nbsp;Free Lunch&nbsp;</span>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <!-- E-lectures -->
+                    
+                    <tr class=sub1 onmouseover="this.className='sub1over'" onmouseout="this.className='sub1'">
+                        <td class=tdMenu>
+                            <a class=cell href="././research.php">
+                                <span class=Menu>
+                                    <span class=MenuArrow>></span>
+                                    &nbsp;E-lectures&nbsp;
+                                </span>
+                            </a>
+                        </td>
+                        <td class=tdMenu valign=top style="padding: 0px;">
+                            <table class="tabMenu sub2" style="padding: 0px; border: 0px solid red">
+                                <tr>
+                                    <td class=tdMenu>
+                                        <a class=cell href="CLITT-DILFS.html">
+                                            <span class=Menu>&nbsp;DILFS&nbsp;</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <!-- <tr>
+                                    <td class=tdMenu>
+                                        <a class=cell href="">
+                                            <span class=Menu>&nbsp;The "Big O"&nbsp;</span>
+                                        </a>
+                                    </td>
+                                </tr> -->
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- <tr class=tiny>
+                        <td>&nbsp;</td>
+                    </tr> -->
+
+                    <!-- CLITT History -->
+                    <!-- <tr>
+                        <td class=tdMenu>
+                            <a class=cell href="CLITT-people.html">
+                                <span class=Menu>&nbsp;History of CLITT&nbsp;</span>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr class=tiny>
+                        <td>&nbsp;</td>
+                    </tr> -->
+
+                </table>
+            </td>
+            <td style="width: 12px">
+            </td>
+            <td class=verline>
+                <div style="width: 1px; background: #112244; height: 100%">
+                </div>
+            </td>
+            <td style="width: 13px">
+
+            </td>
+            <td style="vertical-align: top;">
+                <style type="text/css">
+                    <!--
+                    .style1 {color: #FF0000}
+                    -->
+                    
+                </style>
+
+                <table border=0 cellpadding=0 cellspacing=0>
+                    <!--<colgroup span="2">
+                    <col width="70%"></col>
+                    <col width="30%"></col>
+                    </colgroup>-->
+                    <tr>
+                        <td style="vertical-align: top">
+                            <table border=0 width=100% style="border-collapse: collapse; border-spacing: 0px 0px; padding: 0px;">
+                                <tr>
+                                    <td>
+                                    
+                                        <div style="display:none;">
+                                            <img id="keyboard" src="CLITT-assets/Dvorak-keyboard.png">
+                                            <img id="baby" src="CLITT-assets/computer-baby.jpg">
+                                            <img id="chart" src="CLITT-assets/Dvorak-chart.jpg">
+                                            <img id="dvorak" src="CLITT-assets/Dvorak-headshot.jpeg">
+                                        </div>
+
+                                        <canvas id="frontCanvas" width="540px" height="270px" style="border:0px;">
+                                            Sorry, your browser does not support canvas.
+                                        </canvas>
+
+                                        <script>
+                                            const canvas = document.getElementById("frontCanvas");
+                                            const ctx = canvas.getContext("2d");
+                                            const keyboard = document.getElementById("keyboard");
+                                            const baby = document.getElementById("baby");
+                                            const chart = document.getElementById("chart");
+                                            const dvorak = document.getElementById("dvorak");
+
+                                            keyboard.addEventListener("load", (e) => {
+                                            ctx.drawImage(keyboard, 10, 10, 360, 100);
+                                            });
+                                            baby.addEventListener("load", (e) => {
+                                            ctx.drawImage(baby, 350, 40, 180, 140);
+                                            });
+                                            chart.addEventListener("load", (e) => {
+                                            ctx.drawImage(chart, 200, 160, 290, 100);
+                                            });
+                                            dvorak.addEventListener("load", (e) => {
+                                            ctx.drawImage(dvorak, 80, 80, 130, 140);
+                                            });
+                                        </script>
+                                        <BR>
+                                        <span class=huge>
+                                            <b><i>What is the CLITT?</i></b>
+                                        </span>
+                                        <BR>
+                                        <br>
+                                        <span class=normal>
+                                            Ever had trouble hitting your mark? Are your fingers tired from late nights spent awkwardly hunting and pecking? It's not you. It's QWERTY. 
+                                            <br>
+                                            <br>
+                                            Don't worry. It may have taken years, but you've found the CLITT. The Citizens' League for Intelligent Touch-Typing was formed in 1995 when 
+                                            James Smile and Bob Denim united Egg Harbor's Neighborhood Internet Protection Service with the nearby Citizens of Ocean City for Keyboard Safety.
+                                            Born out of rising concerns over the inefficiency and cyber-weakness of the ubiquitous QWERTY keyboard, the CLITT's central mission is to promote 
+                                            the adoption of the Dvorak layout in all spheres of public and private life. The League's touch-type races and popular "Dvorak Bingo" events have
+                                            influenced tens of keyboard users, including prominent local business owners and two Egg Harbor city comptrollers. Join the mailing list to find 
+                                            out how YOU can help others find the CLITT too.
+                                        </span>
+                                        <BR>
+                                        <BR>
+                                        <span class=huge>
+                                            <b>Announcements</b>
+                                        </span>
+                                        <ul class="normal">
+                                            <li>1997/03/22: Great session, everyone. Thank you to Herb and his wife for the wonderful demonstration.
+                                            </li>
+                                            <li>1997/02/20: QWERTY-pinata is postponed (date TBD). Barb needs help with the "W"
+                                            </li>
+                                            <li>1997/01/20: Dvorak tele-campaign starts next month. Get your phone and fax ready.  
+                                            </li>
+                                            <li>1996/12/21: URGENT. Please contact gosecurejim72 [at] aol [dot] com if you ate the oyster stuffing at last night's xmas party. 
+                                            </li>
+                                            <li>1996/11/18: Dvorak December is right around the corner. This is the time people. If you love Dvorak, spread it far and wide! Finding the CLITT could be someone's xmas miracle.
+                                            </li>
+                                            <li>1996/11/01: Last nights Halloween party was a huge success. (We had two ghosts and five QWERTY keyboards. Spooky!).
+                                            </li>
+                                            <li>1996/10/20: ATTN. Everyone attending the Halloween door-to-door Dvorak campaign MUST meet at the Wegman's parking lot 6pm. 
+                                            </li>
+                                            <li>1996/09/21: Thank you to Margie Kinnery for the cookies.
+                                            </li>
+                                            <li>1996/08/29: Dvorak Day at Egg Harbor Elementary is cancelled. We are making plans to talk to schoolchildren individually. 
+                                            </li>
+                                            <li>1996/07/19: Dvorak Day is coming up in less than 2 months! 
+                                            </li>
+                                            <li>1996/06/20: Barbara Toolman to give "Big O" seminar next meeting. 
+                                            </li>
+                                            <li>1996/05/18: ATTN. The red Daihatsu Charade parked outside Palace of Lights will be impounded within 5 days if it is not moved. 
+                                            </li>
+                                            <li>1996/04/22: We have heard from Phil Balsner's wife that he is recovering well, and his fingers will be back to normal in a week. Thank you to everyone who helped maintain calm last night. You show the true spirit of CLITT. Further, Bob's colonoscopy was successful. He thanks everyone for the letters. 
+                                            </li>
+                                            <li>1996/04/15: The first bi-state "Dvorak v. QWERTY" debate is coming up next week, and will be hosted at our usual meeting location. IMPORTANT: The safety of our members is our top priority. Please do not engage in verbal, physical, or cyber altercations with QINC or other members of the QWERTY crowd.
+                                            </li>
+                                            <li>1996/04/07: Congratulations to Phil Balsner, who will be representing the CLITT at the upcoming bi-state debate against QINC.
+                                            </li>
+                                            <li>1996/03/20: Bob Denim will not be able to represent the CLITT at the bi-state "Dvorak v. QWERY" debate against QINC next month due to an emergency colonoscopy. A vote will be held for his replacement in three days. 
+                                            </li>
+                                            <li>1996/02/19: CONFIRMED. The first bi-state "Dvorak v. QWERY" debate will be hosted at the headquarters of the CLITT, with full cooperation from the QWERTY Institute of North Carolina (QINC).
+                                            </li>
+                                            <li>1996/01/12: "Between the Sheets". Herb Gillman to give tonight's lecture on finding the CLITT and how it accelerated his productivity with Microsoft Excel spreadsheets.
+                                            </li>
+                                            <li>1995/12/27: All part-time CLITT staff please come in for an emergency meeting to plan our New Years Eve-nt. (Note that today is NOT considered a holiday by most businesses.)
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class=verline>
+                            <!--<hr style="color: #112244; background: #112244; width: 1px; height: 100%; border: 0px">-->
+                        </td>
+                        <td style="width: 12px" rowspan=3>
+                        </td>
+                        <td style="vertical-align: top; width: 30%">
+                            <table border=0>
+                                <tr>
+                                    <td>
+                                        <p>
+                                        <div class=small>
+                                            <b>Mailing Address</b>
+                                            <br>
+                                              CLITT, MS&nbsp;A347,
+                                            <br>
+                                              Tilton Times Plaza Suite 44, 6814 Tilton Rd,
+                                            <br>
+                                            <a href="https://search.yahoo.com/search?p=Egg+Harbor+Township">Egg Harbor</a>,
+                                            <a href="https://search.yahoo.com/search?p=New+Jersey">NJ</a>
+                                            &nbsp;08234, U.S.A.
+                                        </div>
+
+                                        <p>
+                                        <div class=small>
+                                            <b>
+                                                <a href="CLITT-people.html">Office</a>
+                                            </b>
+                                            <br>
+
+                                              Phone:&nbsp;+1-609-365-0013
+                                            <br>
+
+                                            &#69;-m&#97;il: 
+                                            <a href="" onMouseOver="this.href='ma'+'il'+'to'+':CLITT'+'yp'+'in'+'g@'+'a'+'o'+'l.'+'com'">CLITTy&#112;i&#110;g@aol.c&#111;m</a>
+                                            <br>
+
+                                            Located behind "Palace of Lights"
+                                        </div>
+                                        <br>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <hr style="background: #112244; height: 1px; border: 0px">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <p>
+                                            <span class=small>
+                                                <b>The CLITT's Mission</b>
+                                            </span>
+                                        </p>
+                                        <ul class="small">
+                                            <li>Reduce cyber-mistakes (and ergo cyber-crimes) by eliminating
+                                                the nefarious QWERTY keyboard layout from 
+                                                all public and private institutions
+                                            </li>
+                                            <li>Fight carpal tunnel syndrome and improve general public cyber-health 
+                                                by promoting the adoption of the Dvorak keyboard layout 
+                                            </li>
+                                            <li>Act as a civilian QWERTY 'watchdog' and liason to the FBI cybercrimes division
+                                            </li>
+                                        </ul>
+                                        <div align="center">
+                                            <img src="CLITT-assets/no-qwerty.png" width=230 height=230>
+                                        </div>
+                                        
+                                        <br>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <hr style="background: #112244; height: 1px; border: 0px">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <p>
+                                            <span class=small>
+                                                <b>Praise for the CLITT</b>
+                                            </span>
+                                        </p>
+                                        <div class="small">
+                                            <i>My wife and I run a small business together.
+                                                Finding the CLITT literally saved my marriage.
+                                            </i>
+                                            <br>
+                                            <div style="text-align: right;">
+                                                &mdash;Herb Lemmon, aquarium parts retailer
+                                            </div>
+                                            <BR>
+                                            <i>My workdays have gotten so much easier after I found the CLITT.
+                                                I can get the job done with fewer awkward strokes...
+                                                My customers are more satisfied than ever.
+                                            </i>
+                                            <br>
+                                            <div style="text-align: right;">
+                                                &mdash;Ken Standard, freelance I.T.
+                                            </div>
+                                            <BR>
+                                            <i>Finding the CLITT has been immensely empowering. 
+                                                You just don't learn these things growing up!
+                                            </i>
+                                            <br>
+                                            <div style="text-align: right;">
+                                                &mdash;Barbara Toolman, university lecturer
+                                            </div>
+                                            <BR>
+                                            <i>Librarian lady says I got magic fingers. Thanks, CLITT.
+                                            </i>
+                                            <br>
+                                            <div style="text-align: right;">
+                                                &mdash;Terry Loam, part-time hot dog stand man
+                                            </div>
+                                            <BR>
+                                            <i>J'&eacute;craserai tous les ennemis du CLITT.
+                                            </i>
+                                            <br>
+                                            <div style="text-align: right;">
+                                                &mdash;Lucien, profession unknown
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                        <br>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+        <tr style="height: 16px">
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan=5>
+                <table border=0>
+                    <tr>
+                        <td>
+                            <img src="CLITT-assets/egg-harbor-institute-small.png" alt="Egg Harbor Institute" width=135 height=48>
+                        </td>
+                        <td style="width: 20px"></td>
+                        <td class=tiny>
+                            Supported by the Egg Harbor Institute. All views expressed by the CLITT are its own.
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

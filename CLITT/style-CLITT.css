@@ -1,0 +1,54 @@
+@font-face {
+  font-family: pix-TNR;
+  src: url(CLITT-fonts/pix-times-new-roman.ttf);
+}
+
+@font-face {
+  font-family: pix-TNR-light;
+  src: url(CLITT-fonts/pix-times-new-roman-light.ttf);
+}
+
+@font-face{
+  font-family: pix-Helv;
+  src: url(CLITT-fonts/pix-helvetica.ttf);
+}
+
+html,body { color: black; background: gainsboro; width: 100%; margin: 0; padding: 0; font-family: pix-TNR; cursor: url('CLITT-assets/win-cursor-small.ico'), auto;}
+a:link { color: #0033ff }
+a:visited { color: #000066 }
+a:hover { color: #0066ff }
+a:visited:hover { color: #0033cc }
+a:active { color: #990066 }
+
+.HomeSmile { background: linear-gradient(to right,gainsboro, rgb(75, 75, 220)); color: white; height: 1ex }
+.verline { width: 1px; background: black }
+
+a.cell:link, a.cell:visited { display: block; width: 100%; height: 100%;
+  color: black; background-color: #ffffff; text-decoration: none; border: 4px black}
+a.cell:hover, a.cell:active, a.cell:visited:hover { display: block;
+  width: 100%; height: 100%; color: black; background-color: #77aaff;
+  text-decoration: none }
+.tabMenu { border-collapse: collapse; border-spacing: 0px 0px; padding: 0px; background: gainsboro }
+.tdMenu {padding: 1px 1px; font-size: large }
+
+.WeAreHere { color: black; background: gainsboro;}
+.Menu { display: block; white-space: nowrap; font-family: pix-TNR; font-size: 24pt;
+padding: 5px; border: 0.5px solid black; box-shadow: inset 1pt 1pt 1pt 0 rgba(255,255,255,0.5), inset -1pt -1pt 1pt 0 rgba(0,0,0,0.5);}
+.MenuArrow { float: right; color: black; font-size: 24pt;}
+
+.sub1 .sub2 { display: none }
+.sub1:hover .sub2 { display: block; position: absolute; z-index: 2 }
+.sub1over .sub2 { display: block; position: absolute; z-index: 2 }
+
+.ph128 { width: 176px; height: 176px; border: 1px solid }
+.enormous {font-size: 48pt;}
+.huge { font-size: 36pt }
+.large { font-size: 30pt }
+.normal { font-size: 22pt }
+.small { font-size: 18pt }
+.fn { font-size: x-large }
+.tiny { font-size: large }
+
+li + li {
+  margin-top: 10px;
+}
