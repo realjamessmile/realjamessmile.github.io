@@ -1,5 +1,12 @@
 @font-face {
   font-family: pix-TNR;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
   src: url(CLITT-fonts/pix-times-new-roman.ttf);
 }
 
