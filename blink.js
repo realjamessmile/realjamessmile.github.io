@@ -7,7 +7,7 @@ let randn = Math.random();
 let interval = avgBlinkPeriod *10000*3/2*(1+randn);
 const imgElement = document.querySelector('#headshot');
 
-function change() {
+export function change() {
     imgElement.src = images[index];
     if (index == 1) {
       index = 0;
