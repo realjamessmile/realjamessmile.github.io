@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 homePage.classList.add('zappa-dimension');
                 banner.classList.add('zappa-lyrics');
                 banner.textContent = "Girl, you thought he was a man But he was a muffin He hung around till you found That he didn't know nuthin' Girl, you thought he was a man But he only was a-puffin' No cries is heard in the night As a result of him stuffin' Girl, you thought he was a man But he was a muffin No cries is heard in the night As a result of him stuffin. THERE IS NO ESCAPE FROM THE ZAPPA DIMENSION. THERE IS NO ESCAPE FROM THE ZAPPA DIMENSION. THERE IS NO ESCAPE FROM THE ZAPPA DIMENSION."
-                document.removeEventListener("DOMContentLoaded", change);
+                document.removeEventListener('DOMContentLoaded', change);
                 if (vol < 1){vol = vol * 2;}
                 else {
                     audio.playbackRate = 1 + clickCount/5;
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     phishButton.textContent = 'ESCAPE THE ZAPPAVERSE?';
                 }
                 else if (clickCount==11){
-                    document.addEventListener("DOMContentLoaded", change);
+                    document.addEventListener('DOMContentLoaded', change);
                     window.location.reload();
                 }
                 else{
