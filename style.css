@@ -501,8 +501,8 @@ input[type="range"] {
     }
 
     .textbook img{
-    width: 20vw;
-    margin-right: 0px;
+    max-width: 90vw;
+    margin-right: auto;
 
     }
 
