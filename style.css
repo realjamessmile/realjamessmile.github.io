@@ -44,6 +44,12 @@ body.danger-prod{
     background-repeat: repeat;
 }
 
+body.smilemethod{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/textbook.png');
+    background-size: 10vw;
+    background-repeat: repeat;
+}
+
 body.palace-of-lights{
     background-image: url('assets/lamps/POL-interior.jpg');
     background-size: 100vw;
